@@ -1,0 +1,23 @@
+{
+  "name": "tcp-syslogger",
+  "version": "1.0.0",
+  "description": "Container prints out syslog-stream",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theikkila/tcp-syslogger.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theikkila/tcp-syslogger/issues"
+  },
+  "homepage": "https://github.com/theikkila/tcp-syslogger#readme",
+  "dependencies": {
+    "glossy": "^0.1.7"
+  }
+}
